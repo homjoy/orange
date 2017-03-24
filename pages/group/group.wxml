@@ -1,0 +1,15 @@
+<radio-group class="radio-group" bindchange="radioChange">
+<label class="radio" wx:for-items="{{items}}">
+      <radio bindtap="toTemp" value="{{item.name}}" checked="{{item.checked}}">
+     <view class="leader">
+        <view class="leader-info">
+            <view class="leader-head">
+                <image src="{{item.image}}"></image>
+            </view>
+            <view>{{item.value}}</view>
+
+        </view>
+    </view>
+ </radio>
+</label>
+</radio-group>

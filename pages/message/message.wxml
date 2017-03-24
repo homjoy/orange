@@ -1,0 +1,5 @@
+<view class="mes-txt">
+    <input type="text" placeholder="填写留言" />
+</view>
+
+<view class="mes-btn" bindtap="mesBtn">提 交</view>

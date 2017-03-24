@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<scroll-view class="useractivity">
+  <!--循环活动列表-->
+  <view class="activity-list"  bindtap="toM">
+      <view class="activity-head">
+          <image src="../../images/Bitmap.png"></image>         
+      </view>
+      <view class="activity-info">
+         <view class="activity-u1">
+             <view class="activity-name">周末来吃西瓜</view>
+             <view class="activity-num">6人参加</view>
+         </view>
+         <view class="activity-u2">
+            <view class="u2-detail">
+                <view class="u2-time">2018 02－01  周六   09:00</view>
+                <view class="u2-address">北京市海淀区知春家园2号北京市海淀区知春家园2号北京市海淀区知春家园2号</view>
+            </view>
+            <view class="manage-btn">管理橘子</view>
+         </view>
+      </view>
+  </view>
+<view class="activity-list"  bindtap="toP">
+      <view class="activity-head">
+          <image src="../../images/Bitmap.png"></image>
+      </view>
+      <view class="activity-info">
+         <view class="activity-u1">
+             <view class="activity-name">一起打游戏</view>
+             <view class="activity-num">20人参加</view>
+         </view>
+         <view class="activity-u2">
+            <view class="u2-detail">
+                <view class="u2-time">2018 02－01  周二    09:00</view>
+                <view class="u2-address">北京市海淀区知春家园2号北京市海淀区知春家园2号北京市海淀区知春家园2号</view>
+            </view>
+            <!--<view class="manage-btn">查看橘子</view>-->
+         </view>
+      </view>
+  </view>
+
+</scroll-view>
+
+<!--发起按钮-->
+<view class="activity"  bindtap="aF">+ 发起活动</view>
+
+

@@ -1,0 +1,14 @@
+/* pages/test/test.wxss */
+/**index.wxss**/
+page{
+  padding-bottom: 160rpx;
+}
+.radio-group{
+    font-size: 26rpx;
+    display: flex;
+    flex-direction: column;
+  }
+  .leader-head image,.w-head image{
+	width: 50rpx;
+	height: 50rpx;
+}

@@ -1,0 +1,51 @@
+<!--pages/test/test.wxml-->
+<view class="banner">
+    <scroll-view class="word">
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小吕<view class="wordname-tips">局头</view></view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">tata</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小花</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小绿</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小王</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+    </scroll-view>
+</view>
+
+<!--底部操作栏-->
+<view class="footer">
+    <view class="f-me f-list " bindtap="myL">我的橘子</view>
+    <view class="f-join f-list" bindtap="myR">退出活动</view>
+</view>
+
+
+
+
+

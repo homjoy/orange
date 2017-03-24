@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/detail/detail",
+    "pages/temp/temp",
+    "pages/my/my",
+    "pages/group/group",
+    "pages/message/message",
+    "pages/join/join"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "橘子助手",
+    "navigationBarTextStyle":"black"
+  }
+}

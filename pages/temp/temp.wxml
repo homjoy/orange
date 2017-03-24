@@ -1,0 +1,81 @@
+<!--发起活动-->
+<!--活动标题-->
+<view class="start-title mt20">
+    <view class="strat-name">活动标题:</view>
+    <view class="start-input"><input type="text" value="{{title}}" /></view>
+</view>
+<view class="start-title">
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 100px;" value="{{value}}" bindchange="bindChange">
+  
+   <picker-view-column>
+      <view wx:for="{{years}}" style="line-height: 50px">活动日期:</view>
+   </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+<view class="start-title">
+    <picker class="strat-name" mode="time" value="{{timeFirst}}" start="09:01" end="21:01" bindchange="bindTimeChangeFirst">开始时间:
+    <view class="start-input">{{timeFirst}}</view>
+  </picker>
+</view>
+<view class="start-title">
+    <picker class="strat-name" mode="time" value="{{timeLast}}" start="09:01" end="21:01" bindchange="bindTimeChangeLast">结束时间:
+    <view class="start-input">{{timeLast}}</view>
+    </picker>
+</view>
+<view class="start-title">
+    <view class="strat-name">活动地址:</view>
+    <view class="start-input"><input type="text"  value="{{address}}"/></view>
+</view>
+<view class="add">
+    <view class="start-txt">
+        <textarea placeholder="补充说明" value="{{desc}}"/>
+    </view>
+</view>
+<image  class="uploadImage img" src="{{imagePath.iconPath}}"></image>
+    <view class="add-btn">
+    <button type="primary" bindtap="uploadFile">上传海报</button>
+    </view>
+<!--高级设置-->
+<view class="start-set startSet"  bindtap="toggle">高级设置</view>
+
+<!--邀请范围-->
+<view wx:if="{{toggle}}" class="invite" bindtap="startSet">
+    <view>邀请范围</view>
+    <view class="inv-txt">选择我的群组 ></view>
+</view>
+
+<!--匿名发起-->
+<view class="invite">
+    <view>匿名发起</view>
+    <view> <switch type="switch" /> </view>
+</view>
+
+
+
+
+
+<!--补充说明-->
+<view class="">
+    
+</view>
+
+
+
+
+<!--提交-->
+<view class="s-submit" bindtap="tempSubmit">提交</view>
+
+
+
+
+
+

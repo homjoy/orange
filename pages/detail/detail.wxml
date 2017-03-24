@@ -1,0 +1,117 @@
+<!--pages/test/test.wxml-->
+<view class="share-tips ">
+    <view class="share-txt"  >点击右上角 [...] 中的 [分享] 邀请大家</view>
+</view>
+
+<!--版头-->
+<view class="banner">
+    <image src="../../images/banner.png"></image>
+    <view class="ban-main" bindtap="toP">
+        <view class="ban-name" >{{aInfo.name?'活动名称：'+aInfo.name:'活动名称：橘子最棒超级棒'}}</view>
+        <view class="ban-time">
+            <view class="time-content">
+                <view>开始：</view>
+                <view> {{aInfo.start_time?aInfo.start_time:'2017 02.22 周六  12:00'}}</view>
+            </view>
+            <view class="time-content">
+                <view>结束：</view>
+                <view>{{aInfo.end_time?aInfo.end_time:'2017 02.22 周六  14:00'}} </view>
+            </view>
+            <view class="ban-address">{{'地点：'+aInfo.area?'地点：'+aInfo.area:'地点：北京知春路知春家园2号楼'}}</view>
+            <view class="join-info">
+                <view class="join-num">{{ count?count+'人已参加':'*人已参加'}}</view>
+                <view class="join-head"><image src="../../images/Bitmap.png"></image></view>
+                <view class="join-head"><image src="../../images/Bitmap.png"></image></view>
+                <view class="join-head"><image src="../../images/Bitmap.png"></image></view>
+                <view class="join-head"><image src="../../images/Bitmap.png"></image></view>
+                <view class="join-head"><image src="../../images/Bitmap.png"></image></view>
+        
+            </view>
+        </view>
+    </view>
+</view>
+
+<!--组织者-->
+<view class="main-wrap">
+    <view class="title">组织者</view>
+    <view class="leader">
+        <view class="leader-info">
+            <view class="leader-head">
+                <image src="../../images/Bitmap.png"></image>
+            </view>
+            <view>{{'地点：'+aInfo.area?'地点：'+aInfo.area:'地点：北京知春路知春家园2号楼'}}</view>
+
+        </view>
+        <view class="copy">复制微信号</view>
+    </view>
+</view>
+
+
+
+<!--活动说明-->
+<view class="main-wrap">
+    <view class="title">活动说明</view>
+    <view class="explain">
+        <view class="e-list">{{aInfo.desc?aInfo.desc:'本次活动AA,请自带矿泉水饮料'}}</view>
+        <view class="e-list">无法参加的请告知组长</view>
+    </view>
+</view>
+
+
+<!--活动留言-->
+<view class="main-wrap">
+
+    <!--改动-->
+    
+    <view class="leader">
+        <view class="leader-info">
+            <view>活动留言</view>
+        </view>
+        <view class="wordadd-btn  copy"  bindtap='wordAddBtn'>+</view>
+    </view>
+    <!--改动结束-->
+
+
+    <scroll-view class="word">
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">{{uInfo.name?uInfo.name:'小吕'}}<view class="wordname-tips">{{uInfo.desc?'局头':'局头'}}</view></view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小花</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小猫咪</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+        <view class="word-list">
+            <view class="w-head"><image src="../../images/Bitmap.png"></image></view>
+            <view class="w-main">
+                <view class="word-name">小绿</view>
+                <view>土耳其飞机劫持事件居然是闹剧，还好不是恐怖袭击没有人员伤亡</view>
+            </view>
+        </view>
+
+    </scroll-view>
+</view>
+
+<!--底部操作栏-->
+<view class="footer">
+    <view class="f-me f-list " bindtap="myL">我的橘子</view>
+    <view class="f-join f-list" bindtap="myR">加入活动</view>
+</view>
+
+
+
+
+

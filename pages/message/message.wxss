@@ -1,0 +1,20 @@
+/* pages/message/message.wxss */
+.mes-btn{
+    text-align: center;
+    background: #fe784c;
+    -webkit-border-radius:10rpx;
+    border-radius:10rpx;
+    line-height: 80rpx;
+    color: #fff;
+    font-size: 34rpx;
+    margin:50rpx 30rpx 0;
+}
+.mes-txt{
+    margin: 30rpx;
+    padding: 30rpx;
+    background: #fff;
+    -webkit-border-radius:10rpx;
+    border-radius: 10rpx;
+    height:260rpx;
+
+}

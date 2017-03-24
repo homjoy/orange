@@ -1,0 +1,151 @@
+/**index.wxss**/
+page{
+  padding-bottom: 160rpx;
+}
+.useractivity {
+  margin-top: 20rpx;
+  background: #fff;
+  font-size: 24rpx;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+}
+.activity-list{
+  border-bottom: 1rpx solid #f4f4f4;
+  padding: 30rpx 30rpx 30rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.activity-head{
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 22rpx;
+}
+.activity-head image{
+  width: 120rpx;
+  height: 120rpx;
+}
+.activity-info{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	width: 0;
+}
+.activity-u1{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+  -webkit-justify-content: space-between;
+  justify-content:space-between;
+	-webkit-align-items: baseline;
+	-ms-flex-item-align: baseline;
+	align-items:baseline;
+  line-height: 46rpx;
+  margin-bottom: 10rpx;
+}
+.activity-name{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  font-size: 30rpx;
+}
+.activity-num{
+  font-size: 22rpx;
+  color: #999;
+}
+.activity-u2{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	justify-content:space-between;
+	-webkit-align-items: center;
+	-ms-flex-item-align:center;
+	align-items: center;
+}
+.manage-btn{
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border:1rpx solid #FF784C;
+  -webkit-border-radius:100px;
+  border-radius: 100px;
+  text-align: center;
+  color: #FF784C;
+  font-size: 22rpx;
+}
+.u2-detail{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	width: 0;
+  color: #999;
+  line-height: 32rpx;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 20rpx;
+}
+.u2-address{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+/*按钮*/
+.activity{
+  position: fixed;
+  width: 300rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background: #FF784C;
+  color: #fff;
+  -webkit-border-radius:100rpx;
+  border-radisu:100rpx;
+  left: 50%;
+  margin-left: -150rpx;
+  bottom: 40rpx;
+  z-index: 5;
+}
+
+
+
+/*---------新加css-----------*/
+.activity-nolist{
+  text-align: center;
+}
+.an-head{
+  width: 180rpx;
+  height: 180rpx;
+  margin:100rpx auto 40rpx;
+}
+.an-head image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.an-txt1{
+  margin-bottom: 16rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

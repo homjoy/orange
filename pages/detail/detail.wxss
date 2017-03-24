@@ -1,0 +1,20 @@
+/* pages/test/test.wxss */
+page{
+    padding-bottom: 98rpx;
+}
+/*按钮*/
+.activity{
+  position: fixed;
+  width: 300rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background: #FF784C;
+  color: #fff;
+  -webkit-border-radius:100rpx;
+  border-radisu:100rpx;
+  left: 50%;
+  margin-left: -150rpx;
+  bottom: 40rpx;
+  z-index: 5;
+}
